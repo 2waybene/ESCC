@@ -1,0 +1,1 @@
+../results/secondPassAnalysis/dat_common_DEGs_K70MD_K70P10_high.txt
