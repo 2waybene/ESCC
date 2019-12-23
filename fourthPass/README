@@ -1,0 +1,5 @@
+for k in `ls /ddn/gs1/home/li11/project2019/RNAseqProj/raw_data/*_L1_1.fq.gz  `; do echo "buildingSalmonscripts_hg38.sh  $k" ; done  >>  createdSalmon.sh 
+for k in `ls /ddn/gs1/home/li11/project2019/RNAseqProj/raw_data/*_L1_1.fq.gz  `; do echo "buildingSalmonscripts_mm10.sh  $k" ; done  >>  createdSalmon.sh 
+
+
+

@@ -1,0 +1,236 @@
+Version Info: This is the most recent version of salmon.
+### salmon (mapping-based) v1.0.0
+### [ program ] => salmon 
+### [ command ] => quant 
+### [ index ] => { /ddn/gs1/home/li11/refDB/mm10/salmonIndex/mm10_salmon_index }
+### [ libType ] => { MU }
+### [ mates1 ] => { /dev/fd/63 }
+### [ mates2 ] => { /dev/fd/62 }
+### [ output ] => { /ddn/gs1/home/li11/project2019/RNAseqProj/results/Salmon/TR_SH_2_CRRA190004038-1a_HMHVVDSXX_L1.salmon }
+Logs will be written to /ddn/gs1/home/li11/project2019/RNAseqProj/results/Salmon/TR_SH_2_CRRA190004038-1a_HMHVVDSXX_L1.salmon/logs
+[2019-11-15 16:37:54.842] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2019-11-15 16:37:54.842] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2019-11-15 16:37:54.842] [jointLog] [info] Usage of --validateMappings implies a default consensus slack of 0.2. Setting consensusSlack to 0.35.
+[2019-11-15 16:37:54.842] [jointLog] [info] parsing read library format
+[2019-11-15 16:37:54.842] [jointLog] [info] There is 1 library.
+[2019-11-15 16:37:54.910] [jointLog] [info] Loading pufferfish index
+[2019-11-15 16:37:54.910] [jointLog] [info] Loading dense pufferfish index.
+-----------------------------------------
+| Loading contig table | Time = 262.05 ms
+-----------------------------------------
+size = 844252
+-----------------------------------------
+| Loading contig offsets | Time = 1.9479 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference lengths | Time = 489.74 us
+-----------------------------------------
+-----------------------------------------
+| Loading mphf table | Time = 255.83 ms
+-----------------------------------------
+size = 145938363
+Number of ones: 844251
+Number of ones per inventory item: 512
+Inventory entries filled: 1649
+-----------------------------------------
+| Loading contig boundaries | Time = 513.3 ms
+-----------------------------------------
+size = 145938363
+-----------------------------------------
+| Loading sequence | Time = 142.76 ms
+-----------------------------------------
+size = 120610833
+-----------------------------------------
+| Loading positions | Time = 1.2139 s
+-----------------------------------------
+size = 240747072
+-----------------------------------------
+| Loading reference sequence | Time = 212.23 ms
+-----------------------------------------
+-----------------------------------------
+| Loading reference accumulative lengths | Time = 17.334 ms
+-----------------------------------------
+[2019-11-15 16:37:57.531] [jointLog] [info] done
+[2019-11-15 16:37:57.531] [jointLog] [info] Index contained 140,748 targets
+[2019-11-15 16:37:57.606] [jointLog] [info] Number of decoys : 0
+[2019-11-15 16:37:57.606] [jointLog] [info] First decoy index : 18,446,744,073,709,551,576 
+
+
+
+
+[A[32mprocessed[31m 500,000 [32mfragments[0m
+hits: 1,542,909, hits per frag:  1.54291e+06[A[32mprocessed[31m 1,000,000 [32mfragments[0m
+hits: 3,090,087, hits per frag:  3.48804[A[32mprocessed[31m 1,500,000 [32mfragments[0m
+hits: 4,638,999, hits per frag:  3.49481[A[32mprocessed[31m 2,000,000 [32mfragments[0m
+hits: 6,186,183, hits per frag:  5.63289[A[32mprocessed[31m 2,500,000 [32mfragments[0m
+hits: 7,736,134, hits per frag:  3.11785[A[32mprocessed[31m 3,000,000 [32mfragments[0m
+hits: 9,283,139, hits per frag:  3.21335[A[32mprocessed[31m 3,500,002 [32mfragments[0m
+hits: 10,826,878, hits per frag:  3.16447[A[32mprocessed[31m 4,000,000 [32mfragments[0m
+hits: 12,373,582, hits per frag:  3.63209[A[32mprocessed[31m 4,500,001 [32mfragments[0m
+hits: 13,914,959, hits per frag:  3.43557[A[32mprocessed[31m 5,000,000 [32mfragments[0m
+hits: 15,457,838, hits per frag:  3.40376[A[32mprocessed[31m 5,500,000 [32mfragments[0m
+hits: 17,005,331, hits per frag:  3.13189[A[32mprocessed[31m 6,000,001 [32mfragments[0m
+hits: 18,549,287, hits per frag:  3.39489[A[32mprocessed[31m 6,500,001 [32mfragments[0m
+hits: 20,093,321, hits per frag:  3.12425[A[32mprocessed[31m 7,000,000 [32mfragments[0m
+hits: 21,640,307, hits per frag:  3.19512[A[32mprocessed[31m 7,500,000 [32mfragments[0m
+hits: 23,184,279, hits per frag:  3.1465[A[32mprocessed[31m 8,000,000 [32mfragments[0m
+hits: 24,734,181, hits per frag:  3.12548[A[32mprocessed[31m 8,500,000 [32mfragments[0m
+hits: 26,284,295, hits per frag:  3.23814[A[32mprocessed[31m 9,000,001 [32mfragments[0m
+hits: 27,834,382, hits per frag:  3.09933[A[32mprocessed[31m 9,500,000 [32mfragments[0m
+hits: 29,381,590, hits per frag:  3.13033[A[32mprocessed[31m 10,000,000 [32mfragments[0m
+hits: 30,931,686, hits per frag:  3.1085[A[32mprocessed[31m 10,500,000 [32mfragments[0m
+hits: 32,480,503, hits per frag:  3.19821[A[32mprocessed[31m 11,000,000 [32mfragments[0m
+hits: 34,030,461, hits per frag:  3.1678[A[32mprocessed[31m 11,500,000 [32mfragments[0m
+hits: 35,581,405, hits per frag:  3.21097[A[32mprocessed[31m 12,000,001 [32mfragments[0m
+hits: 37,133,513, hits per frag:  3.14879[A[32mprocessed[31m 12,500,002 [32mfragments[0m
+hits: 38,684,824, hits per frag:  3.2907[A[32mprocessed[31m 13,000,001 [32mfragments[0m
+hits: 40,237,877, hits per frag:  3.1106[A[32mprocessed[31m 13,500,000 [32mfragments[0m
+hits: 41,785,721, hits per frag:  3.11242[A[32mprocessed[31m 14,000,002 [32mfragments[0m
+hits: 43,337,032, hits per frag:  3.12845[A[32mprocessed[31m 14,500,000 [32mfragments[0m
+hits: 44,880,620, hits per frag:  3.19098[A[32mprocessed[31m 15,000,000 [32mfragments[0m
+hits: 46,424,341, hits per frag:  3.2458[A[32mprocessed[31m 15,500,000 [32mfragments[0m
+hits: 47,970,613, hits per frag:  3.21729[A[32mprocessed[31m 16,000,000 [32mfragments[0m
+hits: 49,520,626, hits per frag:  3.09972[A[32mprocessed[31m 16,500,000 [32mfragments[0m
+hits: 51,067,967, hits per frag:  3.30951[A[32mprocessed[31m 17,000,000 [32mfragments[0m
+hits: 52,607,400, hits per frag:  3.17804[A[32mprocessed[31m 17,500,000 [32mfragments[0m
+hits: 54,147,889, hits per frag:  3.10827[A[32mprocessed[31m 18,000,000 [32mfragments[0m
+hits: 55,696,306, hits per frag:  3.1218[A[32mprocessed[31m 18,500,001 [32mfragments[0m
+hits: 57,243,842, hits per frag:  3.10954[A[32mprocessed[31m 19,000,000 [32mfragments[0m
+hits: 58,789,841, hits per frag:  3.10094[A[32mprocessed[31m 19,500,002 [32mfragments[0m
+hits: 60,330,272, hits per frag:  3.12085[A[32mprocessed[31m 20,000,000 [32mfragments[0m
+hits: 61,882,059, hits per frag:  3.11989[A[32mprocessed[31m 20,500,000 [32mfragments[0m
+hits: 63,430,229, hits per frag:  3.22426[A[32mprocessed[31m 21,000,000 [32mfragments[0m
+hits: 64,976,000, hits per frag:  3.09622[A[32mprocessed[31m 21,500,001 [32mfragments[0m
+hits: 66,526,029, hits per frag:  3.25[A[32mprocessed[31m 22,000,001 [32mfragments[0m
+hits: 68,079,576, hits per frag:  3.12988[A[32mprocessed[31m 22,500,001 [32mfragments[0m
+hits: 69,628,539, hits per frag:  3.16566[A[32mprocessed[31m 23,000,000 [32mfragments[0m
+hits: 71,176,580, hits per frag:  3.10897[A[32mprocessed[31m 23,500,000 [32mfragments[0m
+hits: 72,721,889, hits per frag:  3.12217[A[32mprocessed[31m 24,000,000 [32mfragments[0m
+hits: 74,263,545, hits per frag:  3.16679[A[32mprocessed[31m 24,500,000 [32mfragments[0m
+hits: 75,810,309, hits per frag:  3.17846[A[32mprocessed[31m 25,000,000 [32mfragments[0m
+hits: 77,357,984, hits per frag:  3.14432[A[32mprocessed[31m 25,500,000 [32mfragments[0m
+hits: 78,905,160, hits per frag:  3.11361[A[32mprocessed[31m 26,000,000 [32mfragments[0m
+hits: 80,450,599, hits per frag:  3.09757[A[32mprocessed[31m 26,500,000 [32mfragments[0m
+hits: 81,996,083, hits per frag:  3.22264[A[32mprocessed[31m 27,000,000 [32mfragments[0m
+hits: 83,539,754, hits per frag:  3.10489[A[32mprocessed[31m 27,500,000 [32mfragments[0m
+hits: 85,086,451, hits per frag:  3.11127[A[32mprocessed[31m 28,000,000 [32mfragments[0m
+hits: 86,629,815, hits per frag:  3.13396[A[32mprocessed[31m 28,500,001 [32mfragments[0m
+hits: 88,175,709, hits per frag:  3.0984[2019-11-15 16:43:06.881] [jointLog] [info] Thread saw mini-batch with a maximum of 91.38% zero probability fragments
+[2019-11-15 16:43:06.881] [jointLog] [info] Thread saw mini-batch with a maximum of 91.44% zero probability fragments
+[2019-11-15 16:43:06.881] [jointLog] [info] Thread saw mini-batch with a maximum of 91.34% zero probability fragments
+[2019-11-15 16:43:06.881] [jointLog] [info] Thread saw mini-batch with a maximum of 90.98% zero probability fragments
+[2019-11-15 16:43:06.881] [jointLog] [info] Thread saw mini-batch with a maximum of 91.56% zero probability fragments
+[2019-11-15 16:43:06.881] [jointLog] [info] Thread saw mini-batch with a maximum of 91.38% zero probability fragments
+[2019-11-15 16:43:06.881] [jointLog] [info] Thread saw mini-batch with a maximum of 91.12% zero probability fragments
+[2019-11-15 16:43:06.881] [jointLog] [info] Thread saw mini-batch with a maximum of 91.36% zero probability fragments
+[2019-11-15 16:43:06.881] [jointLog] [info] Thread saw mini-batch with a maximum of 91.40% zero probability fragments
+[2019-11-15 16:43:06.881] [jointLog] [info] Thread saw mini-batch with a maximum of 91.70% zero probability fragments
+[2019-11-15 16:43:06.881] [jointLog] [info] Thread saw mini-batch with a maximum of 91.68% zero probability fragments
+[2019-11-15 16:43:06.881] [jointLog] [info] Thread saw mini-batch with a maximum of 91.74% zero probability fragments
+[2019-11-15 16:43:06.881] [jointLog] [info] Thread saw mini-batch with a maximum of 91.52% zero probability fragments
+[2019-11-15 16:43:06.881] [jointLog] [info] Thread saw mini-batch with a maximum of 91.12% zero probability fragments
+[2019-11-15 16:43:06.881] [jointLog] [info] Thread saw mini-batch with a maximum of 91.58% zero probability fragments
+[2019-11-15 16:43:06.881] [jointLog] [info] Thread saw mini-batch with a maximum of 91.22% zero probability fragments
+[2019-11-15 16:43:06.881] [jointLog] [info] Thread saw mini-batch with a maximum of 91.14% zero probability fragments
+[2019-11-15 16:43:06.881] [jointLog] [info] Thread saw mini-batch with a maximum of 91.20% zero probability fragments
+[2019-11-15 16:43:06.881] [jointLog] [info] Thread saw mini-batch with a maximum of 92.16% zero probability fragments
+[2019-11-15 16:43:06.881] [jointLog] [info] Thread saw mini-batch with a maximum of 91.42% zero probability fragments
+[2019-11-15 16:43:06.881] [jointLog] [info] Thread saw mini-batch with a maximum of 91.16% zero probability fragments
+[2019-11-15 16:43:06.882] [jointLog] [info] Thread saw mini-batch with a maximum of 91.44% zero probability fragments
+[2019-11-15 16:43:06.882] [jointLog] [info] Thread saw mini-batch with a maximum of 91.36% zero probability fragments
+[2019-11-15 16:43:06.882] [jointLog] [info] Thread saw mini-batch with a maximum of 91.22% zero probability fragments
+[2019-11-15 16:43:06.882] [jointLog] [info] Thread saw mini-batch with a maximum of 91.22% zero probability fragments
+[2019-11-15 16:43:06.882] [jointLog] [info] Thread saw mini-batch with a maximum of 91.74% zero probability fragments
+[2019-11-15 16:43:06.882] [jointLog] [info] Thread saw mini-batch with a maximum of 91.70% zero probability fragments
+[2019-11-15 16:43:06.882] [jointLog] [info] Thread saw mini-batch with a maximum of 91.26% zero probability fragments
+[2019-11-15 16:43:06.882] [jointLog] [info] Thread saw mini-batch with a maximum of 91.46% zero probability fragments
+[2019-11-15 16:43:06.882] [jointLog] [info] Thread saw mini-batch with a maximum of 91.28% zero probability fragments
+[2019-11-15 16:43:06.882] [jointLog] [info] Thread saw mini-batch with a maximum of 91.16% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.34% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.70% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.18% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.14% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.48% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.38% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.44% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.44% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 92.12% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.52% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.36% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.78% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.24% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.60% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.40% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.36% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.30% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.76% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.12% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.32% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.28% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.54% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.32% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.40% zero probability fragments
+[2019-11-15 16:43:06.883] [jointLog] [info] Thread saw mini-batch with a maximum of 91.42% zero probability fragments
+[2019-11-15 16:43:06.884] [jointLog] [info] Thread saw mini-batch with a maximum of 91.54% zero probability fragments
+[2019-11-15 16:43:06.884] [jointLog] [info] Thread saw mini-batch with a maximum of 91.30% zero probability fragments
+[2019-11-15 16:43:06.884] [jointLog] [info] Thread saw mini-batch with a maximum of 91.30% zero probability fragments
+[2019-11-15 16:43:06.884] [jointLog] [info] Thread saw mini-batch with a maximum of 91.90% zero probability fragments
+[2019-11-15 16:43:06.884] [jointLog] [info] Thread saw mini-batch with a maximum of 91.18% zero probability fragments
+[2019-11-15 16:43:06.884] [jointLog] [info] Thread saw mini-batch with a maximum of 91.34% zero probability fragments
+[2019-11-15 16:43:06.884] [jointLog] [info] Thread saw mini-batch with a maximum of 91.94% zero probability fragments
+[2019-11-15 16:43:06.884] [jointLog] [info] Thread saw mini-batch with a maximum of 91.82% zero probability fragments
+[2019-11-15 16:43:06.884] [jointLog] [info] Thread saw mini-batch with a maximum of 91.22% zero probability fragments
+[2019-11-15 16:43:06.884] [jointLog] [info] Thread saw mini-batch with a maximum of 91.42% zero probability fragments
+[2019-11-15 16:43:06.884] [jointLog] [info] Thread saw mini-batch with a maximum of 91.64% zero probability fragments
+[2019-11-15 16:43:06.884] [jointLog] [info] Thread saw mini-batch with a maximum of 91.60% zero probability fragments
+[2019-11-15 16:43:06.884] [jointLog] [info] Thread saw mini-batch with a maximum of 91.72% zero probability fragments
+[2019-11-15 16:43:07.038] [jointLog] [info] Thread saw mini-batch with a maximum of 91.14% zero probability fragments
+[2019-11-15 16:43:07.044] [jointLog] [info] Thread saw mini-batch with a maximum of 91.36% zero probability fragments
+[2019-11-15 16:43:07.046] [jointLog] [info] Thread saw mini-batch with a maximum of 91.42% zero probability fragments
+[2019-11-15 16:43:07.126] [jointLog] [info] Thread saw mini-batch with a maximum of 91.26% zero probability fragments
+[2019-11-15 16:43:07.145] [jointLog] [info] Thread saw mini-batch with a maximum of 91.30% zero probability fragments
+[2019-11-15 16:43:07.167] [jointLog] [info] Thread saw mini-batch with a maximum of 91.50% zero probability fragments
+[2019-11-15 16:43:07.237] [jointLog] [info] Thread saw mini-batch with a maximum of 91.36% zero probability fragments
+[2019-11-15 16:43:07.272] [jointLog] [info] Thread saw mini-batch with a maximum of 91.24% zero probability fragments
+[2019-11-15 16:43:07.355] [jointLog] [info] Thread saw mini-batch with a maximum of 91.50% zero probability fragments
+[2019-11-15 16:43:07.443] [jointLog] [info] Thread saw mini-batch with a maximum of 91.46% zero probability fragments
+[2019-11-15 16:43:07.492] [jointLog] [info] Thread saw mini-batch with a maximum of 91.46% zero probability fragments
+
+
+
+
+
+
+
+
+[2019-11-15 16:43:08.796] [jointLog] [info] Computed 170,898 rich equivalence classes for further processing
+[2019-11-15 16:43:08.796] [jointLog] [info] Counted 1,071,189 total reads in the equivalence classes 
+[2019-11-15 16:43:08.981] [jointLog] [info] Number of mappings discarded because of alignment score : 24,266,230
+[2019-11-15 16:43:08.981] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 999,563
+[2019-11-15 16:43:08.981] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2019-11-15 16:43:08.981] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 1,173,365
+[2019-11-15 16:43:09.006] [jointLog] [warning] Only 1071189 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2019-11-15 16:43:09.006] [jointLog] [info] Mapping rate = 3.74601%
+
+[2019-11-15 16:43:09.006] [jointLog] [info] finished quantifyLibrary()
+[2019-11-15 16:43:09.007] [jointLog] [info] Starting optimizer
+[2019-11-15 16:43:09.313] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2019-11-15 16:43:09.330] [jointLog] [info] iteration = 0 | max rel diff. = 742.518
+[2019-11-15 16:43:10.347] [jointLog] [info] iteration = 100 | max rel diff. = 18.2675
+[2019-11-15 16:43:11.378] [jointLog] [info] iteration = 200 | max rel diff. = 3.88896
+[2019-11-15 16:43:12.398] [jointLog] [info] iteration = 300 | max rel diff. = 17.4475
+[2019-11-15 16:43:13.405] [jointLog] [info] iteration = 400 | max rel diff. = 0.390845
+[2019-11-15 16:43:14.443] [jointLog] [info] iteration = 500 | max rel diff. = 0.0537144
+[2019-11-15 16:43:15.524] [jointLog] [info] iteration = 600 | max rel diff. = 0.127615
+[2019-11-15 16:43:16.510] [jointLog] [info] iteration = 700 | max rel diff. = 0.357591
+[2019-11-15 16:43:17.590] [jointLog] [info] iteration = 800 | max rel diff. = 5.9647
+[2019-11-15 16:43:17.601] [jointLog] [info] iteration = 802 | max rel diff. = 0.00365117
+[2019-11-15 16:43:17.610] [jointLog] [info] Finished optimizer
+[2019-11-15 16:43:17.610] [jointLog] [info] writing output 
+
+[2019-11-15 16:43:18.264] [jointLog] [warning] NOTE: Read Lib [[ /dev/fd/63, /dev/fd/62]] :
+
+Found no concordant and consistent mappings. If this is a paired-end library, are you sure the reads are properly paired? check the file: /ddn/gs1/home/li11/project2019/RNAseqProj/results/Salmon/TR_SH_2_CRRA190004038-1a_HMHVVDSXX_L1.salmon/lib_format_counts.json for details
+
