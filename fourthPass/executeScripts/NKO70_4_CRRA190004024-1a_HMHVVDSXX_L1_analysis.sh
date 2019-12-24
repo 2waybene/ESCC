@@ -1,2 +1,0 @@
-salmon quant -i /ddn/gs1/home/li11/refDB/hg38/salmonIndex/hg38_salmon_index  -l MU -1 <(zcat -c /ddn/gs1/home/li11/project2019/RNAseqProj/raw_data/NKO70_4_CRRA190004024-1a_HMHVVDSXX_L1_1.fq.gz ) -2 <(zcat -c /ddn/gs1/home/li11/project2019/RNAseqProj/raw_data/NKO70_4_CRRA190004024-1a_HMHVVDSXX_L1_2.fq.gz ) -o /ddn/gs1/home/li11/project2019/RNAseqProj/results/Salmon/NKO70_4_CRRA190004024-1a_HMHVVDSXX_L1.salmon 
-
